@@ -1,6 +1,6 @@
 * OHEM
 
-![pic](OHEM.jpg)
+![pic](images/OHEM.jpg)
 
 1. 两个ROI网络，上面那个ROI网络用来计算HARD EXAMPLE， 每次更新下面的ROI网络然后将权重赋给上面的。
 2. 难样计算方法：计算ROI损失，用NMS去掉重复的，然后排序，去前N个。
@@ -15,9 +15,9 @@
 
 1. anchor的positives设置：1. 与GT值IoU最大的anchor 2. IoU值>0.7的anchor
 
-![pic](rpn_loss.jpg)
+![pic](images/rpn_loss.jpg)
 
-2. ![pic](参数.jpg)
+2. ![pic](images/parameter.jpg)
 
 3. bounding box回归perform在不同大小的ROI上。
 

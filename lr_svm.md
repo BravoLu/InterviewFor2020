@@ -92,3 +92,6 @@
    * 改变了问题的复杂度。由求特征向量w转化为求比例系数a，在原始问题下，求解的复杂度与样本的维度有关，即w的维度。在对偶问题下，只与样本数量有关。
 
 5. SMO(Sequential Minimal Optimization)
+
+## reference:
+    * [从零构建支持向量机(SVM)](https://funglee.github.io/ml/ref/svmhao.pdf)
