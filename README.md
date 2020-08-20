@@ -7,7 +7,7 @@
 * [Leetcode刷题](https://github.com/labuladong/fucking-algorithm)
 * [计算机基础](https://github.com/CyC2018/CS-Notes)
 
-## [操作系统]
+## [操作系统](os.md)
 个人认为即使是算法岗也应该具备一定的计算机基础知识。
 
 ## [计算机网络]
