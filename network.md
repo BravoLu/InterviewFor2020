@@ -99,3 +99,14 @@
     * 域名（根域名，顶级域名，二级域名）
     * FTP（21号端口）DHCP(动态主机配置协议)
     * Web页面请求过程（1）DHCP配置主机（2）ARP解析MAC地址（只有网关的IP，要得到网关的MAC)（3）有了网关的MAC就能根据RIP,OSPF,BGP到达DNS。（4）HTTP请求。
+
+## TCP报文
+
+![pic](C:\Users\bravolu\Desktop\bravolu\tcp.jpg)
+
+## UDP实现可靠传输
+
+* udp如何实现可靠传输：传输层无法保证数据的可靠传输，只能通过应用层来实现。实现的方式参考tcp可靠性传输的方式（1）添加seq/ack （2）添加发送/缓冲区 （3）超时重传
+
+## Https1.1/2.0新特性
+

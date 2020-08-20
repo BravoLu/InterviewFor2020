@@ -41,6 +41,7 @@
      * 同步非阻塞IO
 
 6. const与#define相比，有何优点
+   
    * const常量有数据类型，宏常量没有数据类型。编译器可以对前者进行安全检查，对后者没有只进行字符替换，没有类型安全检查，并且可能出现1\*1+1和1\*（1+1）的错误。
 7. 寄存器：
    * 保存地址和指令。
@@ -72,16 +73,18 @@
     * 单例类必须给所有其他对象提供这一实例。
 
 15. 用户态切换到内核态（1）异常（2）系统调用（3）外部访问中断
+    
     * 系统调用的过程（1）保存CPU寄存器里原来用户态的指令位。（2）执行内核态代码，CPU寄存器需要更新为内核态指令的新位置（3）跳转到内核态运行内核任务（4）当系统调用结束后，CPU寄存器需要恢复原来保存的用户态，然后再切换到用户空间，继续运行。
 16. AVL树：平衡二叉查找树
 17. HTTP2.0新特性
 18. 字节序：大小端
 19. select: 在网络编程中统一的操作顺序是创建socket->绑定端口->监听->accept->write/read，当有客户端链接来到时，select会把该链接的文件描述符放到fd_set，然后select会循环遍历它所检测的fd_set内的所有文件描述符，当select循环遍历完所有fd_set内指定的文件描述符对应的poll函数后，如果没有一个资源可用，则select让该进程睡眠，一直等到有资源可用为止，fd_set是一个类似于数组的数据结构，由于它每次都要遍历整个数组，所以她的效率会随着文件描述符的数量增多而变慢。另外，系统还需要把这些描述符集合从内核copy到用户空间，再copy回去，消耗大。
+    
     * select和block I/O其实没有太大不同。事实上，还更差一些。因为这里需要使用两个system call（select和recvfrom)，而blocking I/O只调用了recvfrom。select的优势在于它可以同时处理多个connection.如果连接数不高，使用select/epoll的web server不一定比使用multi-threading+blocking I/O的web server性能更好。
 20. epoll: 
 21. 排序算法
 
-![pic](C:\Users\bravolu\Desktop\bravolu\sort.jpg)
+![pic](C:\Users\bravolu\Desktop\bravolu_github\interview_2020\sort.jpg)
 
 22. 栈比堆快，因为栈是编译时分配的，堆是动态分配的。
 23. 手写单例模式

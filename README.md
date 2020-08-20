@@ -21,6 +21,7 @@
 ## Deep Learning 
 本人熟悉的领域主要的re-id, object detection 和 adversarial attack，所以主要是这三方面的内容和一些常规的deep learning知识。
 * [object detection](object_detection.md) 
+* [优化器](optimizer.md)
 
 ## Machine Learning 
 本人对Machine Learning理解不深，只简单理解了一些面试常问的Machine Learning算法，比如LR,SVM,XGBOOST,GBDT,RF等，理解都十分浅显。
