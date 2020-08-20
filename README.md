@@ -10,16 +10,20 @@
 ## [操作系统](os.md)
 个人认为即使是算法岗也应该具备一定的计算机基础知识。
 
-## [计算机网络]
+## [计算机网络](network.md)
 
-## 数据库 
+## [数据库](dataset.md)
 
-## C++ 
+## [C++](c++.md) 
 
-## Python 
+## [Python](python.md) 
 
 ## Deep Learning 
 本人熟悉的领域主要的re-id, object detection 和 adversarial attack，所以主要是这三方面的内容和一些常规的deep learning知识。
+* [object detection](object_detection.md) 
 
 ## Machine Learning 
 本人对Machine Learning理解不深，只简单理解了一些面试常问的Machine Learning算法，比如LR,SVM,XGBOOST,GBDT,RF等，理解都十分浅显。
+
+* [LR&SVM](lr_svm.md)
+* [Bagging&Boosting](bagging_boosting.md)
