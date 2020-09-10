@@ -14,11 +14,16 @@
 
 ## [数据库](dataset.md)
 
-## [C++](c++.md) 
+## [C++](C++.md) 
 
 ## [Python](python.md) 
 
+## [设计模式](design_pattern.md)
+
+* 主要就是单例模式和工厂模式
+
 ## Deep Learning 
+
 本人熟悉的领域主要的re-id, object detection 和 adversarial attack，所以主要是这三方面的内容和一些常规的deep learning知识。
 * [object detection](object_detection.md) 
 * [优化器](optimizer.md)

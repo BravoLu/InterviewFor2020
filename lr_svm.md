@@ -45,7 +45,7 @@
 
    * SVM基本型：
 
-   ![pic](C:\Users\bravolu\OneDrive\面试\images\svm_1.jpg)
+   ![pic](images\svm_1.jpg)
 
    * 拉格朗日函数
 
@@ -70,7 +70,7 @@
 2. 理解SVM中核技巧的使用。
 
    * 核技巧旨在将特征映射和内积这两步运算压缩为一步。核技巧希望构造一个核函数$\mathcal{K}(x_i, x_j)=\theta(x_i)^T\theta(x_j)$
-   * ![pic](C:\Users\bravolu\OneDrive\面试\images\svm_6.jpg)
+   * ![pic](images\svm_6.jpg)
 
 3. 将目标函数转化成对偶问题的推导（软间隔，硬间隔）。
 

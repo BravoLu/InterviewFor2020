@@ -127,3 +127,10 @@
 ### Soft NMS
 
 * 原来的nms只要iou>threshold就会把得分置0，而soft-nms当Iou>threshold时，得分会下降，下降有两种方式，一种是线性加权，一种是高斯加权。
+
+
+
+### SENet 
+
+![1598342748954](images/seblock.jpg)
+
