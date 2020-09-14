@@ -33,3 +33,7 @@
 
 * [LR&SVM](lr_svm.md)
 * [Bagging&Boosting](bagging_boosting.md)
+
+* [Bayesian](bayesian.md)
+
+  
