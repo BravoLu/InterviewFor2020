@@ -39,9 +39,9 @@
 ## 其他
 
 一些Git，Docker，GDB的用法放在了个人博客中
-* [Git]*(https://www.bravolu.cn/2020/12/03/git/)
+* [Git](https://www.bravolu.cn/2020/12/03/git/)
 
 * [Docker](https://www.bravolu.cn/2020/12/01/docker/)
 
-***** [GBD](https://www.bravolu.cn/2020/12/15/gdb/)
+* [GBD](https://www.bravolu.cn/2020/12/15/gdb/)
 
